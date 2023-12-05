@@ -18,7 +18,7 @@ function BookAppointment() {
   const [doctor, setDoctor] = useState(null);
   const params = useParams();
   const dispatch = useDispatch();
-
+  
   const getDoctorData = async () => {
     try {
       dispatch(showLoading());
